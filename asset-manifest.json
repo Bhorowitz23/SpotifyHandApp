@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/SpotifyHandApp/static/css/main.d7da34c1.css",
+    "main.js": "/SpotifyHandApp/static/js/main.0db6a761.js",
+    "static/media/onepiece.png": "/SpotifyHandApp/static/media/onepiece.f711f6e4eee1f112af98.png",
+    "static/media/FullHandRecording.mp4": "/SpotifyHandApp/static/media/FullHandRecording.c8bb16a4b762ab70ad6a.mp4",
+    "static/media/FingerDetectionRecording.mp4": "/SpotifyHandApp/static/media/FingerDetectionRecording.3ec8e4f2b0b609fb80e7.mp4",
+    "static/media/HandDetectionRecording.mp4": "/SpotifyHandApp/static/media/HandDetectionRecording.3d45e1b38ca1c18d9c4e.mp4",
+    "static/media/pony.png": "/SpotifyHandApp/static/media/pony.66ca947b8b80dfa7ceec.png",
+    "static/media/naruto.jpg": "/SpotifyHandApp/static/media/naruto.6a3a89f4aa2daae02c49.jpg",
+    "static/media/blueSpotify.png": "/SpotifyHandApp/static/media/blueSpotify.6856f3c1b68bfb868396.png",
+    "static/media/5finger.png": "/SpotifyHandApp/static/media/5finger.dd21f17a182da7241efa.png",
+    "static/media/4finger.png": "/SpotifyHandApp/static/media/4finger.a8584f1c8aa4af67c985.png",
+    "static/media/3finger.png": "/SpotifyHandApp/static/media/3finger.66f390676ea3f571bad1.png",
+    "static/media/2finger.png": "/SpotifyHandApp/static/media/2finger.a53c5edb20d776ef3b94.png",
+    "index.html": "/SpotifyHandApp/index.html",
+    "main.d7da34c1.css.map": "/SpotifyHandApp/static/css/main.d7da34c1.css.map",
+    "main.0db6a761.js.map": "/SpotifyHandApp/static/js/main.0db6a761.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d7da34c1.css",
+    "static/js/main.0db6a761.js"
+  ]
+}
