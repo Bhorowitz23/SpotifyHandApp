@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/SpotifyHandApp/static/css/main.d7da34c1.css",
-    "main.js": "/SpotifyHandApp/static/js/main.0db6a761.js",
+    "main.js": "/SpotifyHandApp/static/js/main.bd342449.js",
     "static/media/onepiece.png": "/SpotifyHandApp/static/media/onepiece.f711f6e4eee1f112af98.png",
     "static/media/FullHandRecording.mp4": "/SpotifyHandApp/static/media/FullHandRecording.c8bb16a4b762ab70ad6a.mp4",
     "static/media/FingerDetectionRecording.mp4": "/SpotifyHandApp/static/media/FingerDetectionRecording.3ec8e4f2b0b609fb80e7.mp4",
@@ -15,10 +15,10 @@
     "static/media/2finger.png": "/SpotifyHandApp/static/media/2finger.a53c5edb20d776ef3b94.png",
     "index.html": "/SpotifyHandApp/index.html",
     "main.d7da34c1.css.map": "/SpotifyHandApp/static/css/main.d7da34c1.css.map",
-    "main.0db6a761.js.map": "/SpotifyHandApp/static/js/main.0db6a761.js.map"
+    "main.bd342449.js.map": "/SpotifyHandApp/static/js/main.bd342449.js.map"
   },
   "entrypoints": [
     "static/css/main.d7da34c1.css",
-    "static/js/main.0db6a761.js"
+    "static/js/main.bd342449.js"
   ]
 }
