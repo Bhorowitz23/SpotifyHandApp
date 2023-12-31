@@ -2,7 +2,7 @@ import React, {useEffect, useState} from 'react'
 import{FaBars} from 'react-icons/fa'
 import {IconContext} from 'react-icons/lib'
 import {animateScroll as scroll} from 'react-scroll'
-import File from '../../SpotifyHandDetector.zip';
+//import File from '../../SpotifyHandDetector.zip';
 import {
   Nav, 
   NavbarContainer, 
@@ -62,7 +62,7 @@ export const Navbar = ({ toggle }) => {
                   </NavItem>
                   
                 </NavMenu>
-                <A href={File} download='SpotifyHandDetector'><NavBtn type = 'submit' >Download</NavBtn></A>
+                <A /*href={File}*/ download='SpotifyHandDetector'><NavBtn type = 'submit' >Download</NavBtn></A>
             </NavbarContainer>
         </Nav>
       </IconContext.Provider>

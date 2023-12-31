@@ -1,5 +1,5 @@
 import React from 'react'
-import File from '../../SpotifyHandDetector.zip';
+//import File from '../../SpotifyHandDetector.zip';
 import { 
 SidebarContainer, 
 Icon, 
@@ -26,7 +26,7 @@ export const Sidebar = ({ isOpen, toggle }) => {
             <SidebarLink to="about" onClick={toggle} offset={-80}>About</SidebarLink>
           </SidebarMenu>
           <SideBtnWrap>
-            <A href={File} download='SpotifyHandDetector'><DownloadButton type = 'submit' >Download</DownloadButton></A>
+            <A /*href={File}*/ download='SpotifyHandDetector'><DownloadButton type = 'submit' >Download</DownloadButton></A>
           </SideBtnWrap>
         </SidebarWrapper>
     </SidebarContainer>
