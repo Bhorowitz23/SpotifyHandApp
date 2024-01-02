@@ -6,7 +6,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Home />} exact />
+        <Route path="/SpotifyHandApp" element={<Home />} exact />
         
       </Routes>
     </Router>

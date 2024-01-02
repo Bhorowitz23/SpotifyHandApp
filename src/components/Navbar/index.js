@@ -40,7 +40,7 @@ export const Navbar = ({ toggle }) => {
       <IconContext.Provider value={{color: '#fff'}}>
         <Nav scrollNav={scrollNav}>
             <NavbarContainer>
-                <NavLogo to="/" onClick={toggleHome}>Spotify Hand Detector</NavLogo>
+                <NavLogo to="/SpotifyHandApp" onClick={toggleHome}>Spotify Hand Detector</NavLogo>
                 <MobileIcon onClick={toggle}>
                   <FaBars />
                 </MobileIcon>
@@ -62,7 +62,11 @@ export const Navbar = ({ toggle }) => {
                   </NavItem>
                   
                 </NavMenu>
-                <A /*href={File}*/ download='SpotifyHandDetector'><NavBtn type = 'submit' >Download</NavBtn></A>
+                  <A><NavBtn type = 'submit' onClick={() => {
+                                window.open("https://www.dropbox.com/scl/fi/5fzkr75zvtvxdjmnugcs8/SpotifyHandDetector.zip?rlkey=jcwpbt7nhk5wp58r2962a6lol&dl=0", "_blank");
+                                }} >Download</NavBtn>
+                  </A>
+                {/* <A href={File} download='SpotifyHandDetector'><NavBtn type = 'submit' >Download</NavBtn></A> */}
             </NavbarContainer>
         </Nav>
       </IconContext.Provider>

@@ -34,7 +34,11 @@ export const HeroSection = () => {
             Use on any Windows Device with the Help of Toastify. Press the Button Below to Download and Start Now!
           </HeroP>
           <HeroBtnWrapper>
-          <A /*href={File}*/ download='SpotifyHandDetector'> <DownloadButton onMouseEnter={onHover} onMouseLeave={onHover} type = 'submit' >Download Now {hover ? <ArrowForward /> : <ArrowRight />}</DownloadButton></A>
+          <A><DownloadButton onMouseEnter={onHover} onMouseLeave={onHover} type = 'submit' onClick={() => {
+                                window.open("https://www.dropbox.com/scl/fi/5fzkr75zvtvxdjmnugcs8/SpotifyHandDetector.zip?rlkey=jcwpbt7nhk5wp58r2962a6lol&dl=0", "_blank");
+                                }} >Download Now {hover ? <ArrowForward /> : <ArrowRight />}</DownloadButton>
+                  </A>
+          {/* <A ref={File} download='SpotifyHandDetector'> <DownloadButton onMouseEnter={onHover} onMouseLeave={onHover} type = 'submit' >Download Now {hover ? <ArrowForward /> : <ArrowRight />}</DownloadButton></A> */}
             {/* <Button to="signup" onMouseEnter={onHover} onMouseLeave={onHover}
             primary='true' dark='true'>
               Download {hover ? <ArrowForward /> : <ArrowRight />}
